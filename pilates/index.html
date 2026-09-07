@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="ピラティスレッスンの画像生成用プロンプト。全文をボタンひとつでコピーできます。">
+
+  <title>ピラティスレッスン｜画像生成プロンプト</title>
+
+  <meta property="og:title" content="ピラティスレッスン｜画像生成プロンプト">
+  <meta property="og:description" content="ピラティスレッスンの画像生成用プロンプト。全文をボタンひとつでコピーできます。">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://iesugi687-gif.github.io/note-prompts/pilates/og-image.jpg">
+  <meta property="og:url" content="https://iesugi687-gif.github.io/note-prompts/pilates/">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ピラティスレッスン｜画像生成プロンプト">
+  <meta name="twitter:description" content="ピラティスレッスンの画像生成用プロンプト。">
+  <meta name="twitter:image" content="https://iesugi687-gif.github.io/note-prompts/pilates/og-image.jpg">
+
+  <style>
+    :root {
+      color-scheme: light;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #f6f6f4;
+      color: #222;
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Hiragino Kaku Gothic ProN",
+        "Yu Gothic",
+        "YuGothic",
+        sans-serif;
+    }
+
+    main {
+      max-width: 760px;
+      margin: auto;
+      padding: 34px 18px 80px;
+    }
+
+    h1 {
+      font-size: 28px;
+      line-height: 1.4;
+      margin: 0 0 10px;
+    }
+
+    .lead {
+      color: #666;
+      font-size: 16px;
+      line-height: 1.8;
+      margin: 0 0 24px;
+    }
+
+    .card {
+      overflow: hidden;
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 20px;
+      box-shadow: 0 4px 18px rgba(0,0,0,.04);
+    }
+
+    .toolbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      padding: 18px;
+      background: rgba(255,255,255,.96);
+      border-bottom: 1px solid #eee;
+      backdrop-filter: blur(10px);
+    }
+
+    button {
+      width: 100%;
+      border: 0;
+      border-radius: 14px;
+      padding: 17px 20px;
+      background: #222;
+      color: #fff;
+      font-size: 18px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    button:active {
+      transform: scale(.99);
+    }
+
+    .status {
+      min-height: 24px;
+      margin: 10px 2px 0;
+      text-align: center;
+      color: #666;
+      font-size: 14px;
+    }
+
+    pre {
+      margin: 0;
+      padding: 24px 20px 36px;
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+      word-break: normal;
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Hiragino Kaku Gothic ProN",
+        "Yu Gothic",
+        "YuGothic",
+        sans-serif;
+      font-size: 15px;
+      line-height: 1.85;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>🧘 ピラティスレッスン</h1>
+
+    <p class="lead">
+      画像生成用プロンプトです。「全文をコピー」を押すと、下記の文章をまとめてコピーできます。
+    </p>
+
+    <section class="card">
+      <div class="toolbar">
+        <button id="copyButton" type="button">📋 全文をコピー</button>
+        <div id="status" class="status"></div>
+      </div>
+
+      <pre id="prompt">TITLE: ピラティスレッスン
+
+Create an ultra-realistic Pilates studio exercise photograph consisting of exactly THREE separate horizontal photographs stacked vertically: TOP, MIDDLE, and BOTTOM.
+
+This prompt is completely self-contained. Do not request or require reference images. All three panels show the SAME adult East Asian woman with the SAME face, body proportions, hairstyle, outfit, studio and lighting. Preserve the specified pose geometry; never substitute generic Pilates exercises.
+
+SUBJECT — CURVY, FEMININE, LIGHTLY TRAINED
+
+One adult East Asian woman with a naturally curvy, feminine, toned and highly flexible physique. Her proportions are FIXED identity characteristics and remain recognizable in every orientation. Do NOT normalize her toward a thin, straight-bodied or narrow-hipped Pilates-instructor physique.
+
+She has a naturally very full and prominent bust that is distinctly substantial for her otherwise relatively slender athletic frame. The bust retains obvious three-dimensional volume and natural forward projection, especially in side-profile views, creating clear contrast with her relatively narrow ribcage and clearly defined waist.
+
+Her fuller bust is a fixed body-proportion characteristic. Do NOT reduce, flatten or normalize it toward a small-busted athletic physique during prone, side-lying or inverted poses. Preserve realistic gravity, compression and support from the fitted athletic garment.
+
+Below the narrow waist she has a moderately broad feminine pelvis, rounded hips, shapely substantial thighs and naturally full, distinctly rounded, firm buttocks.
+
+Her glutes have smooth three-dimensional volume, anatomically realistic rear projection and gentle natural lift. Their fullest point projects clearly behind the pelvis, creating a compact, round, perky and resilient appearance rather than a flat, elongated or sagging shape. They are lightly trained and firm, NOT oversized, heavily muscular or bodybuilding-like.
+
+Her silhouette reads:
+prominent full bust → narrow ribcage → defined waist → feminine pelvis → rounded hips → round, firm, gently lifted projecting glutes → shapely thighs.
+
+Maintain realistic adult anatomy, subtle muscle tone and natural soft-tissue behavior under gravity. Preserve these proportions in all three poses.
+
+HAIR
+
+Long dark hair tied into a LOW-TO-MID PONYTAIL. A substantial length of loose hair remains beyond the hair tie and falls naturally with gravity. Never generate a bun, topknot or chignon.
+
+OUTFIT
+
+A fitted BLACK short-sleeve one-piece Pilates bodysuit made from thin, smooth, matte stretch-performance fabric, with a round crew neckline and fitted short sleeves.
+
+The bodysuit has EXTREMELY HIGH-CUT athletic leg openings. Each opening rises steeply upward and outward from the lower garment over the hip, with the highest outer point reaching approximately the high outer pelvic crest / side-waist region. The narrow side section sits very high above the upper thigh.
+
+From rear and side views, the openings sweep sharply upward toward the high outer hips while maintaining secure realistic athletic coverage and following the natural glute contour. The cut is dramatically higher and steeper than an ordinary leotard or standard Pilates bodysuit.
+
+She wears separate fitted black over-knee leg covers beginning around the lower-to-middle thigh, leaving a large uninterrupted area of bare upper thigh between the bodysuit and leg covers. They fit closely over the knee, calf and ankle and continue partly over the foot in an open-heel/stirrup construction, leaving HEELS and TOES exposed.
+
+Required clothing silhouette:
+extremely high-cut bodysuit → high outer hip line → large exposed upper-thigh area → fitted black leg covers → exposed heels and toes.
+
+THREE-PANEL COMPOSITION
+
+Exactly THREE wide horizontal photographs stacked vertically with thin white divider lines and approximately equal panel heights. Approximately 2:3 vertical overall canvas.
+
+Every head, ponytail, fingertip, elbow, knee, heel, foot and toe remains completely inside its panel with approximately 5–10% breathing room. Make the subject smaller if necessary rather than cropping or changing the pose.
+
+TOP PANEL — FAR LEG VERTICAL / NEAR LEG DOWN
+
+Strict side-profile camera.
+
+The woman lies FACE-DOWN horizontally on the black Pilates mat with her HEAD toward the LEFT. Chest, abdomen and pelvis remain low and close to the mat. Both arms extend completely straight forward toward the LEFT.
+
+DEPTH ORDER IS ABSOLUTE:
+FAR-SIDE LEG = RAISED LEG.
+NEAR-SIDE / CAMERA-SIDE LEG = LOWERED LEG.
+Never reverse them.
+
+First establish which hip is farther from the camera. Only the leg attached to that FAR hip rises.
+
+The FAR leg rises almost vertically upward from the FAR hip, remaining nearly straight from thigh through knee and ankle, approximately 85–90 degrees above horizontal.
+
+The NEAR leg extends completely straight backward toward the RIGHT, nearly horizontal and close to the mat.
+
+At the pelvis, the lowered NEAR thigh appears visually IN FRONT of the raised FAR thigh. The raised leg visibly originates from the farther hip behind it.
+
+Required silhouette:
+prone torso + arms straight forward + FAR leg nearly vertical + NEAR leg horizontal.
+
+MIDDLE PANEL — VERY WIDE GROUNDED SIDE-LYING SPLIT
+
+The woman lies on her LEFT SIDE with her HEAD toward the LEFT.
+
+Her left hip, side of the pelvis and outer left thigh remain visibly grounded with natural compression. The LEFT LEG extends completely straight along the mat toward the RIGHT.
+
+Her torso is moderately elevated. The LEFT elbow and forearm support the upper torso, with the left hand near the side of her head. Her RIGHT palm rests flat on the mat in front of her torso.
+
+The RIGHT LEG extends dramatically upward toward the UPPER-RIGHT, approximately 70–80 degrees above horizontal. Hip, thigh, knee, ankle and toes create one long continuous straight diagonal.
+
+The two legs create an exceptionally wide open angle resembling an advanced side-lying flexibility split rather than an ordinary leg raise.
+
+Required silhouette:
+grounded left pelvis + LEFT leg straight along mat + RIGHT leg very high diagonal + extremely wide side split.
+
+The pelvis remains grounded. This is NOT a side plank.
+
+BOTTOM PANEL — TALL FOREARM INVERSION WITH ASYMMETRIC AIRBORNE LEGS
+
+Strict side-profile camera.
+
+The woman performs a physically plausible advanced forearm-supported inversion.
+
+Both ELBOWS and the full length of BOTH FOREARMS are firmly planted on the mat. The forearms point forward and remain approximately parallel.
+
+Her head stays extremely low, close to the mat, between and slightly behind the forearms.
+
+The shoulders remain low while the torso rises VERY STEEPLY upward. The abdomen and pelvis stack substantially ABOVE the shoulders, creating a tall compact inverted structure rather than a long diagonal forearm-plank shape.
+
+The PELVIS / GLUTES form the high central pivot of the pose and remain approximately above the shoulder region.
+
+Do NOT move the pelvis far backward.
+
+Central body axis:
+forearms grounded → head low → shoulders low → steep near-vertical torso → pelvis high above shoulders.
+
+DEPTH ORDER IS ABSOLUTE:
+FAR-SIDE LEG = HIGH LEG.
+NEAR-SIDE / CAMERA-SIDE LEG = LOWER AIRBORNE LEG.
+Never reverse them.
+
+First establish the FAR and NEAR hips. Only after establishing depth may the legs be positioned.
+
+The FAR leg originates from the hip FARTHER from the camera and extends long and straight toward the UPPER-LEFT. It is the dominant HIGH leg and approaches a near-vertical diagonal, approximately 65–80 degrees above horizontal.
+
+The NEAR leg originates from the hip CLOSEST to the camera and extends long and nearly straight toward the RIGHT / LOWER-RIGHT, approximately 20–35 degrees downward relative to horizontal from the elevated pelvis.
+
+At the pelvis, the NEAR thigh appears visually IN FRONT of the FAR thigh. The FAR leg originates visibly behind it.
+
+CRITICAL: THE NEAR LEG IS A LOWER AIRBORNE LEG, NOT A GROUND LEG.
+
+BOTH LEGS AND BOTH FEET remain completely AIRBORNE.
+
+The NEAR leg must stop well before reaching the floor. Its knee, lower leg, ankle, heel, toes and entire foot remain suspended with obvious empty space between the foot and the mat.
+
+Neither foot touches the mat or supports body weight.
+
+The leg arrangement is strongly asymmetric:
+FAR foot = high UPPER-LEFT.
+PELVIS = very high near the center above the shoulders.
+NEAR foot = suspended RIGHT / LOWER-RIGHT.
+
+The pose is vertically oriented. The FAR leg should appear substantially more upright than horizontal.
+
+The legs form an asymmetric open shape but NOT a horizontal split and NOT a symmetrical V.
+
+Required silhouette:
+both forearms grounded
+→ head extremely low
+→ shoulders low
+→ torso rising steeply toward vertical
+→ pelvis stacked high above shoulders
+→ FAR leg long and high toward UPPER-LEFT
+→ NEAR leg long toward RIGHT / LOWER-RIGHT
+→ BOTH feet visibly airborne.
+
+This is a tall forearm inversion with one high leg and one diagonally lowered floating leg.
+
+PHYSICAL REALISM
+
+Every limb must connect anatomically to the correct joint and hip socket. Preserve realistic joint articulation, balance, muscular tension, gravity and weight distribution.
+
+TOP and MIDDLE show appropriate body and mat compression. BOTTOM is supported through the forearms/elbows and upper-body balance, never through either foot.
+
+The body must remain anatomically coherent through the inverted torso. Do not twist the pelvis independently from the ribcage or exchange the front/back surfaces of the torso.
+
+Preserve the same prominent full bust, narrow ribcage and waist, feminine pelvis, rounded hips and round gently lifted glutes throughout all orientations. In side profile, retain visible natural bust projection rather than flattening the chest into the torso.
+
+STUDIO & CAMERA
+
+Bright minimalist professional Pilates studio with white and pale-gray interior, smooth light-gray floor, large pale roller blind or wall panel, subtle indirect linear lighting and a rectangular black Pilates mat. Minimal Pilates equipment may appear near the far edges.
+
+Authentic high-quality Pilates training photography from a stationary tripod-mounted camera, approximately 40mm full-frame-equivalent perspective, natural proportions and moderately deep depth of field.
+
+Natural adult skin texture, subtle pores and imperfections, realistic soft tissue, fabric tension, body weight and shadows. No fisheye distortion, artificial plastic skin or excessive retouching.
+
+ABSOLUTE PRIORITY
+
+1. Preserve the exact TOP and MIDDLE pose geometry.
+2. TOP: FAR leg UP; NEAR/CAMERA-SIDE leg DOWN. Never reverse.
+3. BOTTOM: tall near-vertical forearm inversion, NOT a diagonal forearm plank.
+4. BOTTOM: pelvis HIGH and approximately ABOVE the shoulders.
+5. BOTTOM: FAR leg = high UPPER-LEFT; NEAR leg = suspended RIGHT/LOWER-RIGHT.
+6. BOTTOM: BOTH feet completely airborne with visible space beneath the lower foot.
+7. Same prominent full bust, narrow waist, rounded hips and round gently lifted glutes in every panel.
+8. Extremely high-cut bodysuit, correct leg covers and ponytail.
+9. Complete full-body framing without cropped extremities.
+
+NEGATIVE PROMPT
+
+reference image required, substituted exercise, reversed depth order, NEAR leg raised in TOP, NEAR leg highest in BOTTOM, bottom foot touching mat, toes touching floor, foot-supported inversion, three-point support, standing split, diagonal forearm plank, downward-dog shape, horizontal flying split, symmetrical inverted V, low pelvis in BOTTOM, pelvis far behind shoulders, handstand, straight-arm inversion, all-fours, donkey kick, side plank, narrow middle split, floating middle pelvis, bent raised knee, impossible joints, twisted pelvis, reversed torso, disconnected limbs, extra limbs, missing limbs, cropped extremities, bun, topknot, chignon, thin straight-bodied physique, narrow pelvis, flattened bust, small-bust normalization, flat buttocks, sagging or elongated glutes, bodybuilding glutes, excessive muscularity, ordinary low-cut bodysuit, boyshorts, cycling shorts, attached leggings, tights, thigh-high stockings, loose knitted leg warmers, closed-toe footwear, plastic skin, mirror selfie, smartphone, social-media interface, text, watermark, logo.</pre>
+    </section>
+  </main>
+
+  <script>
+    const button = document.getElementById("copyButton");
+    const prompt = document.getElementById("prompt");
+    const status = document.getElementById("status");
+
+    button.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(prompt.innerText);
+        button.textContent = "✓ コピーしました";
+        status.textContent = "クリップボードに全文をコピーしました。";
+
+        setTimeout(() => {
+          button.textContent = "📋 全文をコピー";
+          status.textContent = "";
+        }, 2500);
+      } catch (error) {
+        const range = document.createRange();
+        range.selectNodeContents(prompt);
+
+        const selection = window.getSelection();
+        selection.removeAllRanges();
+        selection.addRange(range);
+
+        try {
+          document.execCommand("copy");
+          button.textContent = "✓ コピーしました";
+          status.textContent = "クリップボードに全文をコピーしました。";
+        } catch (e) {
+          status.textContent = "コピーできませんでした。本文を長押ししてコピーしてください。";
+        }
+
+        selection.removeAllRanges();
+      }
+    });
+  </script>
+</body>
+</html>
