@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta
+    name="description"
+    content="Seaside Fashion Snapshot の画像生成用プロンプト。ボタンひとつで全文をコピーできます。"
+  >
+
+  <title>Seaside Fashion Snapshot｜画像生成プロンプト</title>
+
+  <meta property="og:title" content="Seaside Fashion Snapshot｜画像生成プロンプト">
+  <meta
+    property="og:description"
+    content="海辺のファッションスナップを再現するための画像生成プロンプト。ボタンひとつで全文をコピーできます。"
+  >
+  <meta property="og:type" content="website">
+  <meta
+    property="og:image"
+    content="https://iesugi687-gif.github.io/note-prompts/seaside-fashion/og-image.jpg"
+  >
+  <meta
+    property="og:url"
+    content="https://iesugi687-gif.github.io/note-prompts/seaside-fashion/"
+  >
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta
+    name="twitter:title"
+    content="Seaside Fashion Snapshot｜画像生成プロンプト"
+  >
+  <meta
+    name="twitter:description"
+    content="海辺のファッションスナップを再現するための画像生成プロンプト。"
+  >
+  <meta
+    name="twitter:image"
+    content="https://iesugi687-gif.github.io/note-prompts/seaside-fashion/og-image.jpg"
+  >
+
+  <style>
+    :root {
+      color-scheme: light;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #f6f6f4;
+      color: #222;
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Hiragino Kaku Gothic ProN",
+        "Yu Gothic",
+        "YuGothic",
+        sans-serif;
+    }
+
+    main {
+      max-width: 760px;
+      margin: auto;
+      padding: 34px 18px 80px;
+    }
+
+    h1 {
+      font-size: 28px;
+      line-height: 1.4;
+      margin: 0 0 10px;
+    }
+
+    .lead {
+      color: #666;
+      font-size: 16px;
+      line-height: 1.8;
+      margin: 0 0 24px;
+    }
+
+    .card {
+      overflow: hidden;
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 20px;
+      box-shadow: 0 4px 18px rgba(0,0,0,.04);
+    }
+
+    .toolbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      padding: 18px;
+      background: rgba(255,255,255,.96);
+      border-bottom: 1px solid #eee;
+      backdrop-filter: blur(10px);
+    }
+
+    button {
+      width: 100%;
+      border: 0;
+      border-radius: 14px;
+      padding: 17px 20px;
+      background: #222;
+      color: #fff;
+      font-size: 18px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    button:active {
+      transform: scale(.99);
+    }
+
+    .status {
+      min-height: 24px;
+      margin: 10px 2px 0;
+      text-align: center;
+      color: #666;
+      font-size: 14px;
+    }
+
+    pre {
+      margin: 0;
+      padding: 24px 20px 36px;
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+      word-break: normal;
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Hiragino Kaku Gothic ProN",
+        "Yu Gothic",
+        "YuGothic",
+        sans-serif;
+      font-size: 15px;
+      line-height: 1.85;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>🌊 Seaside Fashion Snapshot</h1>
+
+    <p class="lead">
+      画像生成用プロンプトです。「全文をコピー」を押すと、下記の文章をまとめてコピーできます。
+    </p>
+
+    <section class="card">
+      <div class="toolbar">
+        <button id="copyButton" type="button">📋 全文をコピー</button>
+        <div id="status" class="status"></div>
+      </div>
+
+      <pre id="prompt">TITLE: Seaside Fashion Snapshot
+
+Create an ultra-realistic vertical fashion photograph of ONE 28-year-old adult European woman, inspired by a German / Central-Northern European appearance.
+
+SUBJECT
+
+She is approximately 170 cm tall with the proportions of a naturally slender fashion model.
+
+She has a tall, lean, feminine physique with long limbs, relatively slim shoulders and arms, a narrow ribcage, a clearly defined slim waist and a relatively flat natural abdomen. Despite her otherwise slender model-like frame, she has a naturally full and prominent bust with clear three-dimensional volume and noticeable projection relative to her narrow ribcage and waist.
+
+Below the waist, her silhouette remains feminine rather than extremely thin or straight-bodied. She has a naturally shaped pelvis, gently rounded hips, a softly rounded and moderately projecting gluteal contour, and long, lean but not skeletal thighs. She is slender and model-like, but retains natural feminine curves. Do not make her heavily muscular, extremely skinny, broad-waisted or exaggeratedly hourglass-shaped.
+
+Her overall silhouette should read:
+slender shoulders and narrow ribcage → naturally full bust → slim defined waist → feminine hips and naturally rounded glutes → long lean legs.
+
+FACE
+
+She has a realistic Central/Northern European appearance rather than an idealized doll-like or AI-generated beauty face.
+
+Her face is slightly elongated and oval with a relatively open forehead, subtly defined cheekbones, naturally lean cheeks, a softly tapered jaw and a moderately narrow chin.
+
+Her eyes are slightly elongated and almond-shaped rather than unusually large or round. Her eyebrows are natural and understated. She has a relatively straight, refined nose of moderate width and natural lips with slightly more fullness in the lower lip.
+
+Keep subtle facial asymmetry, realistic skin texture and ordinary anatomical imperfections. Avoid an excessively symmetrical, airbrushed or plastic-looking face.
+
+HAIR
+
+Medium-long dark-rooted dirty-blonde hair with lighter blonde highlights through the lengths.
+
+No bangs.
+
+Her hair has been exposed to the sea and is slightly wet, creating irregular natural strands and subtle separation rather than perfectly styled salon hair. Some strands are moved naturally by the coastal breeze.
+
+She is casually sweeping her hair back with ONE HAND. Her fingers pass naturally through the hair around the forehead and crown, lifting the hair backward. The gesture should feel spontaneous and relaxed rather than like a rigid studio pose.
+
+SKIN
+
+Naturally light European skin with a healthy warm golden summer tan.
+
+The tan should remain believable and relatively light rather than becoming deeply brown, orange or artificially bronzed.
+
+Her forehead, cheekbones, nose, neck, collarbones, upper chest, abdomen, arms and thighs show realistic highlights from strong summer sunlight.
+
+Her skin has a subtle moist sheen consistent with being beside the sea, particularly around the forehead, cheeks, neck and upper chest.
+
+Preserve natural pores, fine texture, small tonal variations and realistic skin detail. No waxy skin, plastic smoothing or excessive beauty retouching.
+
+OUTFIT
+
+She wears a lightweight cropped ivory / warm off-white windbreaker made from thin, slightly wrinkled technical fabric.
+
+The jacket is loose and oversized around the shoulders, upper arms and torso, with voluminous sleeves, elastic cuffs and a lightly gathered cropped hem.
+
+Thin dark navy or nearly black piping runs along the jacket seams as a distinctive graphic detail.
+
+The front zipper is worn substantially open, creating a relaxed open neckline while the garment hangs naturally according to gravity and body position.
+
+She wears fitted very dark navy short shorts with a subtle fine vertical ribbed texture. They sit relatively high on the waist and follow the natural contours of the hips without looking artificially sculpted.
+
+Small-to-medium simple gold hoop earrings.
+
+No prominent necklace, handbag, hat or distracting accessories.
+
+POSE
+
+Use a relaxed asymmetrical fashion-model stance.
+
+One leg supports most of her body weight while the OTHER FOOT is placed slightly forward and elevated on a low natural rock or similar small seaside ledge.
+
+The elevated leg is naturally bent at the knee.
+
+This difference in leg height causes the pelvis to tilt and rotate naturally. The hip on the elevated-leg side rises slightly and shifts backward, producing a subtle three-quarter body orientation.
+
+Because of this natural pelvic rotation, a small portion of the rear curve of her hip and glute is visible behind the side contour of the shorts. This should appear as an incidental consequence of the raised-leg fashion pose, NOT as an exaggerated butt-out pose.
+
+Keep realistic weight distribution through the supporting leg, pelvis and spine. Avoid extreme lumbar arching or anatomically impossible hip rotation.
+
+At the same time, ONE HAND is raised to her head and casually sweeps her wet blonde hair backward from her forehead.
+
+Her raised elbow creates a loose diagonal line through the upper body. The opposite arm remains relaxed beside her body or rests naturally around the waist/hip.
+
+Her shoulders remain relaxed and slightly asymmetrical.
+
+The overall pose should resemble an experienced fashion model casually changing poses during an outdoor shoot rather than someone standing rigidly for a portrait.
+
+EXPRESSION
+
+Calm, relaxed and slightly aloof editorial expression.
+
+No broad smile and no exaggerated seductive expression.
+
+Her lips remain naturally closed or very slightly parted. Her eyes are relaxed.
+
+She may look slightly away from the camera rather than maintaining perfect direct eye contact, reinforcing the impression of a spontaneous moment captured between poses.
+
+COMPOSITION
+
+Vertical portrait orientation.
+
+Frame her from the TOP OF HER HEAD down to approximately JUST ABOVE THE KNEES.
+
+Do not crop the hair or top of the head.
+
+Include enough of both thighs to clearly communicate the raised-leg stance, pelvic tilt and overall body proportions.
+
+The camera is approximately around torso-to-chest height with a natural perspective.
+
+Avoid extreme low angles, extreme high angles and aggressive wide-angle distortion.
+
+Her head, bust, waist, hips and thighs should retain believable relative proportions. Do not enlarge the foreground thigh or hips through artificial perspective distortion.
+
+SCENE
+
+A simple sunny seaside setting.
+
+Blue ocean behind the woman.
+
+A few boats are floating naturally in the distance.
+
+Keep the background secondary and uncomplicated. Boats must remain at believable distances and realistic scales relative to the woman and one another. Do not place oversized boats directly behind her and do not create inconsistent or surreal perspective.
+
+The foreground may contain a low natural coastal rock or ledge supporting her raised foot.
+
+LIGHTING
+
+Strong natural midday-to-early-afternoon summer sunlight.
+
+Direct sunlight creates crisp but believable shadows and bright highlights across her face, wet hair, shoulders, skin and ivory jacket.
+
+The warm sunlit skin contrasts naturally with the blue sea.
+
+Retain highlight detail in both skin and the pale jacket rather than blowing them into featureless white.
+
+PHOTOGRAPHIC CHARACTER
+
+Ultra-realistic contemporary outdoor fashion imagery with the immediacy of a high-quality frame extracted from a short fashion video.
+
+Natural anatomy, realistic gravity, realistic fabric folds, authentic wet hair and skin texture.
+
+The image should feel like a particularly good frame captured while the model was naturally transitioning between poses, rather than a perfectly frozen studio advertisement.
+
+No artificial HDR look.
+No excessive background blur.
+No plastic skin.
+No CGI appearance.
+No distorted anatomy.
+No exaggerated body proportions.
+No impossible boat perspective.
+No oversized foreground limbs.</pre>
+    </section>
+  </main>
+
+  <script>
+    const button = document.getElementById("copyButton");
+    const prompt = document.getElementById("prompt");
+    const status = document.getElementById("status");
+
+    button.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(prompt.innerText);
+
+        button.textContent = "✓ コピーしました";
+        status.textContent = "クリップボードに全文をコピーしました。";
+
+        setTimeout(() => {
+          button.textContent = "📋 全文をコピー";
+          status.textContent = "";
+        }, 2500);
+
+      } catch (error) {
+        const range = document.createRange();
+        range.selectNodeContents(prompt);
+
+        const selection = window.getSelection();
+        selection.removeAllRanges();
+        selection.addRange(range);
+
+        try {
+          document.execCommand("copy");
+
+          button.textContent = "✓ コピーしました";
+          status.textContent = "クリップボードに全文をコピーしました。";
+
+        } catch (e) {
+          status.textContent =
+            "コピーできませんでした。本文を長押ししてコピーしてください。";
+        }
+
+        selection.removeAllRanges();
+      }
+    });
+  </script>
+</body>
+</html>
